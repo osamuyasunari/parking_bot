@@ -8,10 +8,10 @@ class Database:
   admins: list[str]
 
   def __init__(self):
-    self.__parking_places = ["123", "345"]
+    self.__parking_places = []
     self.booking_data = {}
-    self.alert_list = [285389960]
-    self.admins = ["f_424_d"]
+    self.alert_list = []
+    self.admins = []
     self.reset()
 
   @property
